@@ -7,12 +7,26 @@
 button {
     cursor: pointer;
 }
+img {
+    display: block;
+}
 body {
     font-family: 'Roboto', sans-serif;
     color: #434455;
     background: #FFFFFF;
 }
+.container1 {
+    display: flex;
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px 0 15px;
+}
+.page-navigation [
+    display: flex;
+    align-items: center;
+]
 .logotype {
+    margin-right: 76px;
     font-family: Raleway, sans-serif;
         font-size: 18px;
         font-weight: 700;
@@ -31,7 +45,9 @@ body {
         font-weight: 500;
         line-height: 24px;
         letter-spacing: 0.02em;
-        
+        display: flex;
+        gap: 40px;
+        padding: 24px 0;
     color: #2E2F42;
 }
 .menu-link:hover,
@@ -47,6 +63,8 @@ body {
         line-height: 1.5;
         letter-spacing: 0.02em;  
     color: #434455;
+    display: flex;
+    gap: 40px;
 }
 .address-line:hover,
 .address-line:focus {
@@ -54,6 +72,12 @@ body {
 }
 .hero {
     background: #2E2F42;
+}
+.container2 {
+    padding: 188px 0;
+}
+h1 {
+    max-width: 496px;
 }
 .main-title {
     //styleName: Header 1;
@@ -72,9 +96,15 @@ body {
         font-weight: 500;
         line-height: 1.5;
         letter-spacing: 0.04em;
-        
+        display: block;
+        min-width: 169px;
+        height: 56px;
+        border: none;
     color: #FFFFFF;
     background: #4D5AE5;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #4d5ae5;
 }
 .order:hover,
 .order:focus {
